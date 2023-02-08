@@ -1,0 +1,953 @@
+*{
+    margin: 0;
+    padding: 0; 
+   box-sizing: border-box;
+   font-family: 'Fredoka+One' sans-serif;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    
+    background-color: black;
+   
+}
+
+.logo{
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    background-image: url(../img/i2.png);
+
+    
+}
+.graficlogo{
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+   
+}
+nav{
+    margin: auto;
+    width: 800px;
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 125px;
+
+}
+.topnav{
+
+font-size: 14px;
+margin-top: 40px;
+text-align: center;
+background-image: url(../img/A.png);
+}
+.topnav a{
+    
+    color: rgb(192, 173, 173);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+}
+.topnav a:hover{
+    border-bottom: 2px solid rgb(255, 253, 253);
+}
+.topnav .icon{
+    display: none;
+}
+
+.mw-100{
+    max-width: 100%;
+}
+
+.mann{
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px
+    
+    
+}
+
+.womm{
+    color: white;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Mogra&display=swap');
+
+.wrapper{
+    max-width: 1130px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+
+    
+}
+.wrapper .cart-nav {
+    position: absolute;
+    top: -21%;
+    left: 1625px;
+    display: flex;
+    width: 180px;
+    justify-content: space-evenly;
+    background: #fff;
+    padding: 13px 15px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.cart-nav .icon {
+    color: #dac2d8;
+}
+
+.cart-nav .icon i {
+    font-size: 20px;
+}
+.cart-nav .icon span { 
+    font-weight: 500;
+}
+
+.cart-nav .item-count {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #dac2d8;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.wrapper{
+    max-width: 1130px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.wrapper .card {
+    position: relative;
+    height: 440px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.wrapper .card img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 7px;
+}
+
+.wrapper .card:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.wrapper .card .content {
+    position: static;
+    width: 100%;
+    bottom: -50%;
+    padding:  10px 20px 22px 20px;
+    background-color: #8b8888;
+}
+
+.card .content .row,
+.content .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .row .detalis span {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content .row .detalis p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content .row .price {
+    color: #272727;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.content .buttons {
+    margin-top: 20px;
+}
+
+.content .buttons button {
+    width: 100%;
+    padding: 10px 0;
+    border:  2px solid #030303;
+    border-radius: 3px;
+    font-size: 11px;
+     font-weight: 500;
+     cursor: pointer;
+     outline: none;
+     text-transform: uppercase;
+     transition: all 0.5s ease;
+ }
+ 
+ .buttons button:first-child {
+    margin-right: 10px;
+    color: #dac2d8;
+    background:rgb(73, 70, 70);
+}
+
+button:first-child:hover {
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+.buttons button:last-child {
+    margin-left: 10px;
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+button:last-child:hover {
+    background: rgb(73, 70, 70);
+    color: #dac2d8;
+}
+
+
+
+
+
+
+
+.wr{
+    max-width: 1130px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.wr .card1 {
+    position: relative;
+    height: 440px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 75px;
+}
+
+.wr .card1 img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 7px;
+}
+
+.wr .card1:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.wr .card1 .content1 {
+    position: static;
+    width: 100%;
+    bottom: -50%;
+    padding:  10px 20px 22px 20px;
+    background-color: #8b8888;
+}
+
+.card1 .content1 .row1,
+.content1 .buttons1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1 .row1 .detalis1 span {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content1 .row1 .detalis1 p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content1 .row1 .price1 {
+    color: #272727;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.content1 .buttons1 {
+    margin-top: 20px;
+}
+
+.content1 .buttons1 button {
+    width: 100%;
+    padding: 10px 0;
+    border:  2px solid #030303;
+    border-radius: 3px;
+    font-size: 11px;
+     font-weight: 500;
+     cursor: pointer;
+     outline: none;
+     text-transform: uppercase;
+     transition: all 0.5s ease;
+ }
+ 
+ .buttons1 button:first-child {
+    margin-right: 10px;
+    color: #dac2d8;
+    background:rgb(73, 70, 70);
+}
+
+button:first-child:hover {
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+.buttons1 button:last-child {
+    margin-left: 10px;
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+button:last-child:hover {
+    background: rgb(73, 70, 70);
+    color: #dac2d8;
+}
+
+
+.wr5{
+    max-width: 1130px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+
+}
+
+.wr5 .card6 {
+    position: relative;
+    height: 440px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 75px;
+
+}
+
+.wr5 .card6 img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 7px;
+}
+
+.wr5 .card6:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.wr5 .card6 .content6 {
+    position: static;
+    width: 100%;
+    bottom: -50%;
+    padding:  10px 20px 22px 20px;
+    background-color: #8b8888;
+}
+
+.card6 .content6 .row6,
+.content6 .buttons6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content6 .row6 .detalis6 span {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content6 .row6 .detalis6 p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content6 .row6 .price6 {
+    color: #272727;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.content6 .buttons6 {
+    margin-top: 20px;
+}
+
+.content6 .buttons6 button {
+    width: 100%;
+    padding: 10px 0;
+    border:  2px solid #030303;
+    border-radius: 3px;
+    font-size: 11px;
+     font-weight: 500;
+     cursor: pointer;
+     outline: none;
+     text-transform: uppercase;
+     transition: all 0.5s ease;
+ }
+ 
+ .buttons6 button:first-child {
+    margin-right: 10px;
+    color: #dac2d8;
+    background:rgb(73, 70, 70);
+}
+
+button:first-child:hover {
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+.buttons6 button:last-child {
+    margin-left: 10px;
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+button:last-child:hover {
+    background: rgb(73, 70, 70);
+    color: #dac2d8;
+}
+
+
+
+.wr10{
+    max-width: 1130px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.wr10 .card11{
+    position: relative;
+    height: 440px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 75px;
+}
+
+.wr10 .card11 img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 7px;
+}
+
+.wr10 .card11:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.wr10 .card11 .content11 {
+    position: static;
+    width: 100%;
+    bottom: -50%;
+    padding:  10px 20px 22px 20px;
+    background-color: #8b8888;
+}
+
+.card11 .content11 .row11,
+.content11 .buttons11 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content11 .row11 .detalis11 span {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content11 .row11 .detalis11 p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.conten11 .row11 .price11 {
+    color: #272727;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.content11 .buttons11 {
+    margin-top: 20px;
+}
+
+.content11 .buttons11 button {
+    width: 100%;
+    padding: 10px 0;
+    border:  2px solid #030303;
+    border-radius: 3px;
+    font-size: 11px;
+     font-weight: 500;
+     cursor: pointer;
+     outline: none;
+     text-transform: uppercase;
+     transition: all 0.5s ease;
+ }
+ 
+ .buttons11 button:first-child {
+    margin-right: 10px;
+    color: #dac2d8;
+    background:rgb(73, 70, 70);
+}
+
+button:first-child:hover {
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+.buttons11 button:last-child {
+    margin-left: 10px;
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+button:last-child:hover {
+    background: rgb(73, 70, 70);
+    color: #dac2d8;
+}
+
+.wr6{
+    max-width: 1130px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.wr6 .card2 {
+    position: relative;
+    height: 440px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 75px;
+}
+
+.wr6 .card2 img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 7px;
+}
+
+.wr6 .card2:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.wr6 .card2 .content2 {
+    position: static;
+    width: 100%;
+    bottom: -50%;
+    padding:  10px 20px 22px 20px;
+    background-color: #8b8888;
+}
+
+.card2 .content2 .row2,
+.content2 .buttons2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content2 .row2 .detalis2 span {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content2 .row2 .detalis2 p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content2 .row2 .price2 {
+    color: #272727;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.content2 .buttons2 {
+    margin-top: 20px;
+}
+
+.content2 .buttons2 button {
+    width: 100%;
+    padding: 10px 0;
+    border:  2px solid #030303;
+    border-radius: 3px;
+    font-size: 11px;
+     font-weight: 500;
+     cursor: pointer;
+     outline: none;
+     text-transform: uppercase;
+     transition: all 0.5s ease;
+ }
+ 
+ .buttons2 button:first-child {
+    margin-right: 10px;
+    color: #dac2d8;
+    background:rgb(73, 70, 70);
+}
+
+button:first-child:hover {
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+.buttons2 button:last-child {
+    margin-left: 10px;
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+button:last-child:hover {
+    background: rgb(73, 70, 70);
+    color: #dac2d8;
+}
+
+
+.wr2{
+    max-width: 1130px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.wr2 .card3 {
+    position: relative;
+    height: 440px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 75px;
+}
+
+.wr2 .card3 img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 7px;
+}
+
+.wr2 .card3:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.wr2 .card3 .content3 {
+    position: static;
+    width: 100%;
+    bottom: -50%;
+    padding:  10px 20px 22px 20px;
+    background-color: #8b8888;
+}
+
+.card3 .content3 .row3,
+.content3 .buttons3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content3 .row3 .detalis3 span {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content3 .row3 .detalis3 p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content3 .row3 .price3 {
+    color: #272727;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.content3 .buttons3 {
+    margin-top: 20px;
+}
+
+.content3 .buttons3 button {
+    width: 100%;
+    padding: 10px 0;
+    border:  2px solid #030303;
+    border-radius: 3px;
+    font-size: 11px;
+     font-weight: 500;
+     cursor: pointer;
+     outline: none;
+     text-transform: uppercase;
+     transition: all 0.5s ease;
+ }
+ 
+ .buttons3 button:first-child {
+    margin-right: 10px;
+    color: #dac2d8;
+    background:rgb(73, 70, 70);
+}
+
+button:first-child:hover {
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+.buttons3 button:last-child {
+    margin-left: 10px;
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+button:last-child:hover {
+    background: rgb(73, 70, 70);
+    color: #dac2d8;
+}
+
+
+.wr3{
+    max-width: 1130px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.wr3 .card4 {
+    position: relative;
+    height: 440px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 75px;
+}
+
+.wr3 .card4 img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 7px;
+}
+
+.wr3 .card4:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.wr3 .card4 .content4 {
+    position: static;
+    width: 100%;
+    bottom: -50%;
+    padding:  10px 20px 22px 20px;
+    background-color: #8b8888;
+}
+
+.card4 .content4 .row4,
+.content4 .buttons4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content4 .row4 .detalis4 span {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content4 .row4 .detalis4 p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content4 .row4 .price4 {
+    color: #272727;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.content4 .buttons4 {
+    margin-top: 20px;
+}
+
+.content4 .buttons4 button {
+    width: 100%;
+    padding: 10px 0;
+    border:  2px solid #030303;
+    border-radius: 3px;
+    font-size: 11px;
+     font-weight: 500;
+     cursor: pointer;
+     outline: none;
+     text-transform: uppercase;
+     transition: all 0.5s ease;
+ }
+ 
+ .buttons4 button:first-child {
+    margin-right: 10px;
+    color: #dac2d8;
+    background:rgb(73, 70, 70);
+}
+
+button:first-child:hover {
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+.buttons4 button:last-child {
+    margin-left: 10px;
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+button:last-child:hover {
+    background: rgb(73, 70, 70);
+    color: #dac2d8;
+}
+
+.wr7{
+    max-width: 1130px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.wr7 .card5 {
+    position: relative;
+    height: 440px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 75px;
+}
+
+.wr7 .card5 img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 7px;
+}
+
+.wr7 .card5:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.wr7 .card5 .content5 {
+    position: static;
+    width: 100%;
+    bottom: -50%;
+    padding:  10px 20px 22px 20px;
+    background-color: #8b8888;
+}
+
+.card5 .content5 .row5,
+.content5 .buttons5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content5 .row5 .detalis5 span {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content5 .row5 .detalis5 p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content5 .row5 .price5 {
+    color: #272727;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.content5 .buttons5 {
+    margin-top: 20px;
+}
+
+.content5 .buttons5 button {
+    width: 100%;
+    padding: 10px 0;
+    border:  2px solid #030303;
+    border-radius: 3px;
+    font-size: 11px;
+     font-weight: 500;
+     cursor: pointer;
+     outline: none;
+     text-transform: uppercase;
+     transition: all 0.5s ease;
+ }
+ 
+ .buttons5 button:first-child {
+    margin-right: 10px;
+    color: #dac2d8;
+    background:rgb(73, 70, 70);
+}
+
+button:first-child:hover {
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+.buttons5 button:last-child {
+    margin-left: 10px;
+    color: rgb(73, 70, 70);
+    background: #dac2d8;
+}
+
+button:last-child:hover {
+    background: rgb(73, 70, 70);
+    color: #dac2d8;
+}
